@@ -1,0 +1,75 @@
+
+
+#img-logo{	
+	background-image: url(../images/64x64-text.png);
+	width: 64px;
+    height: 64px;
+}
+
+#init-link{ 
+    text-align: center;
+	margin-top: 15px;     
+}
+
+.top-bar  input[type="search"] {
+    display: inline-block;
+    max-width: 94.46%; 
+    margin-right: 0px;
+	margin-top: 10px;
+    border-radius: 0px;
+    height: 40px;	 
+}
+
+#icon-search{
+	float: right;
+	margin-top: 10px;
+}
+
+#icons-notify{
+	margin-top: 10px;
+}
+
+#icons-notify > img {
+	margin-right: 10px;
+}
+
+#best{
+	width: 64px;
+	height: 64px;
+	
+}
+
+#main-arean	{
+	margin-top: 10px;
+}
+
+#name-user{
+	height: 64px;
+}
+
+.position-left.reveal-for-large{
+	position: absolute;
+}
+
+.off-canvas-wrapper{
+	margin-top: 20px;
+}
+
+.row-list-players{
+	margin-button: 10px;
+}
+
+#col-post-desc {
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+#score {
+	margin-top: 20px;
+	font-size: 1.25em;
+}
+
+#score > img {
+	float: left;
+	margin-right: 10px;
+}	
