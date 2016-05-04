@@ -5,9 +5,11 @@ body{
 }
 
 #img-logo{	
-	background-image: url(../images/64x64-text.png);
+	background-image: url(http://placehold.it/64x64);
+	background-repeat: no-repeat;
 	width: 64px;
     height: 64px;
+	margin-right: 10px;
 }
 
 #init-link{ 
@@ -22,13 +24,34 @@ body{
 	margin-top: 10px;
     border-radius: 0px;
     height: 40px;	 
-	background-image: url(../images/40x40-text.png);
+	background-image: url(http://placehold.it/40x40);
 	background-repeat: no-repeat;
 	background-position: right;
 }
 
-.top-bar  input[type="search"]  background-image hover{
-	cursor: pointer;
+.post-header{
+	height: 66px;
+	margin-bottom: 0px;
+	background-color: lightblue;	
+}
+
+.post-footer{
+	margin-top: 1px;
+}
+
+.post-body{
+	margin-bottom: 0px;
+
+}
+
+#post-cols{
+	text-align: center;
+
+}
+
+#post-cols > div {
+  padding-left: 1.875rem;
+  padding-right: 1.875rem;
 }
 
 #icon-search{
@@ -46,10 +69,6 @@ body{
 	margin-right: 10px;
 }
 
-#best{
-	width: 64px;
-	height: 64px;
-}
 
 .info-player{
 	background-color: whitesmoke;
