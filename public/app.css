@@ -32,15 +32,20 @@ body{
 .post-header{
 	height: 66px;
 	margin-bottom: 0px;
+	margin-top: 20px;
 	background-color: lightblue;	
 }
 
 .post-footer{
-	margin-top: 1px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	border-radius: 0px;
 }
 
 .post-body{
 	margin-bottom: 0px;
+	border-style: none solid none solid;
+	border-radius: 0px;
 
 }
 
@@ -115,6 +120,61 @@ body{
 	float: left;
 	margin-right: 10px;
 }	
+
+.example-twitter {
+  position:relative;
+
+  margin-left: 50px;
+  padding:5px;  
+  color:#333;
+  background:#eee;
+  /* css3 */
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+}
+
+.example-twitter p {
+	font-size:14px; line-height:1.25em;
+	margin-bottom: 0;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+
+/* creates the triangle */
+.example-twitter:after {
+  content:"";
+  position:absolute;
+  top: 6px;
+  left:-5px;
+  border:15px solid transparent;
+  border-bottom-color:#eee;
+  /* reduce the damage in FF3.0 */
+  display:block;
+  width:0;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+
+/* display of quote author (alternatively use a class on the element following the blockquote) */
+.example-twitter + p {padding-left:15px; font:14px Arial, sans-serif;}
+
+.post-comments{
+	text-align: left;
+	border-style: none solid solid solid;
+	border-radius: 0;
+	border-bottom-right-radius:3px;
+	border-bottom-left-radius:3px;
+}
+
+.post-comments img{
+	float: left;
+}
+
 
 @media all and (min-width: 50px)   {  body  { font-size:0.515em;  } }
 @media all and (min-width: 100px)  {  body  { font-size:0.535em;  } }
